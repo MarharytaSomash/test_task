@@ -1,0 +1,7 @@
+.not-foud_page {
+    @apply flex align-middle justify-center mt-20 text-2xl text-cyan-800;
+
+    span {
+        @apply text-cyan-950;
+    }
+}
