@@ -1,0 +1,16 @@
+.footer-wrapper {
+    @apply flex justify-between border-solid bg-white h-266;
+    border-top: 1px solid black;
+}
+
+.footer-wrapper-img {
+    @apply w-82 h-82 mt-5 mx-10 flex justify-center ml-[230px] mt-[92px];
+}
+
+.footer-wrapper-info {
+    @apply flex  flex-row w-[500px] mt-[84px] ml-[445px];
+}
+
+.footer-wrapper-about {
+    @apply flex flex-col w-[150px] h-[68px] ml-[-400px] font-sans font-bold leading-7 text-sm;
+}

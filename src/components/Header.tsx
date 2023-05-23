@@ -6,7 +6,7 @@ function Header() {
         <div className="header-wrapper">
             <div className="header-wrapper-logo">
                 <img src={process.env.PUBLIC_URL + "/img/logo.png"} className="img " alt="logo" />
-                <p> VooDoo Test</p>
+                <p className="header-wrapper-logo-text"> VooDoo Test</p>
             </div>
             <div className="header-wrapper-info">
                 <div className="header-wrapper-about"> About us </div>

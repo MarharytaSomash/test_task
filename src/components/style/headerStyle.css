@@ -1,18 +1,18 @@
 .header-wrapper {
-    @apply flex justify-between border-solid;
+    @apply flex justify-between border-solid h-194;
     border-bottom: 1px solid black;
 }
 .header-wrapper-logo {
     @apply flex flex-row;
 }
 .img {
-    @apply w-45 h-45 mt-5 mx-10;
+    @apply w-45 h-45 mt-6 mx-10;
 }
-p {
-    @apply w-10 h-100 mt-5 text-3xl font-extrabold;
+.header-wrapper-logo-text {
+    @apply w-10 h-100 mt-6 text-3xl font-extrabold;
 }
 .header-wrapper-info {
-    @apply flex flex-row mt-5;
+    @apply flex flex-row mt-6;
 }
 
 .header-wrapper-about {
