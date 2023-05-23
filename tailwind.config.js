@@ -17,6 +17,9 @@ module.exports = {
             margin: {
                 400: "400px",
             },
+            font: {
+                space: "Space Grotesk",
+            },
         },
     },
     variants: {
