@@ -1,5 +1,5 @@
 .card-wrapper {
-    @apply flex flex-row w-[1272px] h-[1302px] ml-[20px] mt-[50px] mb-[30px] flex-wrap;
+    @apply flex flex-row w-[1272px] h-[1302px] ml-[50px] mt-[50px] mb-[30px] flex-wrap;
 }
 
 .card-wrapper-details {

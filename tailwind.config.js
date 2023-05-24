@@ -20,6 +20,9 @@ module.exports = {
             font: {
                 space: "Space Grotesk",
             },
+            background: {
+                orange: "#ED5E21",
+            },
         },
     },
     variants: {

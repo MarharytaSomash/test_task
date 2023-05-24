@@ -1,0 +1,15 @@
+.form-wrapper {
+    @apply flex flex-col justify-center items-center py-12 w-[1272px] h-[177px] rounded-md;
+}
+.form-title {
+    @apply w-[486px] h-[14px] font-normal text-xl leading-6 mb-[24px];
+    font-family: "Space Grotesk";
+}
+
+.form-wrapper input {
+    @apply flex flex-row items-center w-[518px] h-[43px] pt-[16px] pb-[16px] pr-[400px] pl-[16px] bg-white text-black rounded-md;
+}
+.form-wrapper button {
+    @apply flex flex-row text-center items-center w-[94px] h-[43px] p-[16px] bg-orange-600  ml-[530px] mt-[-43px] rounded-md font-semibold text-base;
+    font-family: "Space Grotesk";
+}
