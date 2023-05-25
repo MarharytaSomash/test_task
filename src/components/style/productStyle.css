@@ -29,3 +29,45 @@
     @apply flex flex-col w-[95px]  font-normal text-sm;
     font-family: "Space Grotesk";
 }
+.card-content-wrapper-button {
+    display: none;
+}
+@media (max-width: 767px) {
+    .card-wrapper {
+        @apply flex flex-col h-[auto] flex-wrap;
+    }
+
+    .card-wrapper-details {
+        @apply flex flex-col w-[300px] h-[402px] m-[9px];
+    }
+
+    .card-img-wrapper {
+        position: relative;
+    }
+
+    .card-img {
+        @apply flex flex-col w-[300px] h-[300px] relative z-10 border border-solid border-gray-800;
+    }
+
+    .card-img-wrapper-add {
+        @apply absolute top-[10px] left-[10px] z-20 bg-black text-white p-2 text-xs font-normal rounded;
+        font-family: "Space Grotesk";
+    }
+
+    .card-content-wrapper {
+        @apply flex flex-row justify-between mt-[6px];
+    }
+
+    .card-content-info-main {
+        @apply flex flex-col w-[95px] font-bold text-sm;
+        font-family: "Space Grotesk";
+    }
+
+    .card-content-info {
+        @apply flex flex-col w-[95px] font-normal text-sm;
+        font-family: "Space Grotesk";
+    }
+    .card-content-wrapper-button {
+        @apply flex flex-row text-center justify-center text-white p-[12px] mt-[2px] w-[300px] h-[42px] bg-black rounded font-normal font-bold text-sm leading-4;
+    }
+}

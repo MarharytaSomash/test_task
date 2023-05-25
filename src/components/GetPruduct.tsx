@@ -38,6 +38,7 @@ function GetProduct() {
                             <p>Slightly used</p>
                         </div>
                     </div>
+                    <button className="card-content-wrapper-button">PICK-UP IN 2200</button>
                 </div>
             ))}
         </div>

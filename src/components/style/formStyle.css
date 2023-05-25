@@ -13,3 +13,22 @@
     @apply flex flex-row text-center items-center w-[94px] h-[43px] p-[16px] bg-orange-600  ml-[530px] mt-[-43px] rounded-md font-semibold text-base;
     font-family: "Space Grotesk";
 }
+@media (max-width: 767px) {
+    .form-wrapper {
+        @apply flex flex-col justify-center items-center py-6 px-4 w-full h-auto rounded-md;
+    }
+
+    .form-title {
+        @apply w-full max-w-[300px] text-center font-normal text-sm leading-6 mb-4;
+        font-family: "Space Grotesk";
+    }
+
+    .form-wrapper input {
+        @apply w-full max-w-[236px] h-10 px-4 bg-white text-black rounded-md;
+    }
+
+    .form-wrapper button {
+        @apply w-full max-w-[94px] h-10 mt-2 ml-0 bg-orange-600 rounded-md ml-[245px] mt-[-40px]  font-semibold text-base;
+        font-family: "Space Grotesk";
+    }
+}

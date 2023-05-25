@@ -22,3 +22,34 @@
 .header-wrapper-button {
     @apply w-[100px] h-[40px] bg-black  mx-16 p-2 font-bold text-xl text-white rounded-lg;
 }
+@media (max-width: 767px) {
+    .header-wrapper {
+        @apply flex justify-between border-solid h-auto;
+        border-bottom: 1px solid black;
+        padding: 10px;
+    }
+
+    .header-wrapper-logo {
+        @apply flex flex-row;
+    }
+
+    .img {
+        @apply w-12 h-12 mt-2 mx-2;
+    }
+
+    .header-wrapper-logo-text {
+        @apply w-24 h-auto mt-2 text-lg font-extrabold;
+    }
+
+    .header-wrapper-info {
+        @apply flex flex-row mt-4;
+    }
+
+    .header-wrapper-about {
+        @apply w-[70px] h-[20px] mx-2 font-sans font-bold leading-6 text-base;
+    }
+
+    .header-wrapper-button {
+        @apply w-[80px] h-[32px] bg-black mx-4 p-1 font-bold text-base text-white rounded-lg;
+    }
+}
